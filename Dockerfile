@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.6.0-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:11.6.1-cudnn8-devel-ubuntu20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get -y update && apt-get -y install --no-install-recommends software-properties-common libgl1-mesa-dev wget libssl-dev
